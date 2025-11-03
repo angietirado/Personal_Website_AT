@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angie Tirado — Callio Marketing</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #2d2d2d;
+      background: linear-gradient(135deg, #e7c9d7 0%, #e8d6f0 100%);
+      overflow-x: hidden;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 4rem;
+      background: rgba(255, 255, 255, 0.25);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #543e5c;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #543e5c;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #8a5a7b;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 6rem 2rem;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    .hero img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      color: #4a3a5d;
+      margin: 0.5rem 0;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #5a4e66;
+      max-width: 600px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: #5e5e5e;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Angie Tirado</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="assets/img/Angie_Professional.png" alt="Angie Tirado Portrait" />
+    <h1>Welcome to My Portfolio</h1>
+    <p>
+      Hi, I’m Angie Tirado — a passionate marketing professional at Callio Marketing.  
+      I specialize in creative campaigns, digital storytelling, and marketing strategy.  
+      Explore my work and discover how I blend art and analytics to bring ideas to life.
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Angie Tirado — Callio Marketing
+  </footer>
+</body>
+</html>
